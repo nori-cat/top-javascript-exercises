@@ -8,8 +8,15 @@
 */
 
 // Add your code right below, good luck!
+let firstName = "Carlos";
+let lastName = "Stevenson";
+let thisYear = 1965;
+let birthYear = 1947;
 
+fullName = firstName + " " + lastName;
+age = thisYear - birthYear;
 
+let greeting = "Hello! My name is +" + fullName + " and I am " + age + " years old."
 
 
 
@@ -23,3 +30,4 @@ module.exports = {
   fullName: typeof fullName === 'undefined' ? undefined : fullName,
   age: typeof age === 'undefined' ? undefined : age
 }
+ 
